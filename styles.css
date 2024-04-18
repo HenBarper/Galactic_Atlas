@@ -1,0 +1,43 @@
+/* body {
+  background-color: black;
+  color: white;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/galaxy2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 0px 0px 30px white;
+}
+
+.glow {
+  color: #fdec6e;
+}
+.glow:hover {
+  color: #fdec6e;
+  text-shadow: 0px 0px 30px #fdec6e;
+}
+
+a {
+  color: #fdec6e;
+}
+a:hover {
+  color: #fff9c2;
+  /* opacity: 0.8; */
+}
+a:visited {
+  color: #fdec6e;
+}
+a:visited:hover {
+  color: #fff9c2;
+  /* opacity: 0.8; */
+}
+
+.thick-hr {
+  height: 4px;
+  background-color: #fdec6e;
+  border: none;
+}
